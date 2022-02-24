@@ -1,0 +1,18 @@
+{
+   "version": "2012-10-17",
+    "statement": [
+	{	"Sid": "publicread",
+		"effect": "Allow",
+		"Principal": "*",
+		"Action": [
+			"s3:GetObject",
+			"s3:GetObjectversion"
+			],
+			"Resource": [
+				"arn: aws:s3:::DOC-EXAMPLE-BUCKET/*"
+				]
+	
+	          ]
+	}     
+
+}
